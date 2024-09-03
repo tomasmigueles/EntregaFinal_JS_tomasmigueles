@@ -1,0 +1,39 @@
+body {
+    padding-top: 20px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #b3e0ff, #ddd);
+}
+
+.product-item {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.product-item button {
+    margin-top: 10px;
+}
+
+.product-item button:hover {
+    background: #45a049;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 600px) {
+    .product-item {
+        width: 100%;
+    }
+}
+
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
